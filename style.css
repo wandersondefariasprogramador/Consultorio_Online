@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Mulish' , sans-serif;
+    gap: 2.5rem;
+    align-items: center;
+    
+}
+.menu a{
+   color: #8f8a9a;
+   font-size: 1.125rem;
+}
+.menu a span {
+    color: #1F1534;
+    font-weight: 700;
+}
